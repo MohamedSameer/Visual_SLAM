@@ -1,4 +1,0 @@
-/media/mohamed/Transcend_2/3D Computer Vision/slambook2-master_my_Edit/ch2/04_usingCmake_Library_shared/build/CMakeFiles/hello_shared.dir
-/media/mohamed/Transcend_2/3D Computer Vision/slambook2-master_my_Edit/ch2/04_usingCmake_Library_shared/build/CMakeFiles/useHello.dir
-/media/mohamed/Transcend_2/3D Computer Vision/slambook2-master_my_Edit/ch2/04_usingCmake_Library_shared/build/CMakeFiles/edit_cache.dir
-/media/mohamed/Transcend_2/3D Computer Vision/slambook2-master_my_Edit/ch2/04_usingCmake_Library_shared/build/CMakeFiles/rebuild_cache.dir

@@ -1,3 +1,0 @@
-/media/mohamed/Transcend_2/3D Computer Vision/slambook2-master_my_Edit/ch3/useEigen/build/CMakeFiles/eigenMatrix.dir
-/media/mohamed/Transcend_2/3D Computer Vision/slambook2-master_my_Edit/ch3/useEigen/build/CMakeFiles/edit_cache.dir
-/media/mohamed/Transcend_2/3D Computer Vision/slambook2-master_my_Edit/ch3/useEigen/build/CMakeFiles/rebuild_cache.dir
