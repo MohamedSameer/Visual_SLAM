@@ -1,0 +1,3 @@
+/media/mohamed/Transcend_2/3D Computer Vision/slambook2-master_my_Edit/ch2/02_usingCmake/build/CMakeFiles/helloSLAM.dir
+/media/mohamed/Transcend_2/3D Computer Vision/slambook2-master_my_Edit/ch2/02_usingCmake/build/CMakeFiles/edit_cache.dir
+/media/mohamed/Transcend_2/3D Computer Vision/slambook2-master_my_Edit/ch2/02_usingCmake/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/media/mohamed/Transcend_2/3D Computer Vision/slambook2-master_my_Edit/ch3/useEigen/build",
+  "command": "/usr/bin/c++  -I/usr/include/eigen3  -o CMakeFiles/eigenMatrix.dir/eigenMatrix.cpp.o -c \"/media/mohamed/Transcend_2/3D Computer Vision/slambook2-master_my_Edit/ch3/useEigen/eigenMatrix.cpp\"",
+  "file": "/media/mohamed/Transcend_2/3D Computer Vision/slambook2-master_my_Edit/ch3/useEigen/eigenMatrix.cpp",
+  "output": "CMakeFiles/eigenMatrix.dir/eigenMatrix.cpp.o"
+}
+]
