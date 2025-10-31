@@ -1,0 +1,71 @@
+
+1) Pull the image
+
+docker pull zzq5233/slambook2-gaoxiang:latest
+
+2) (Optional) Prepare a working folder on your host
+
+Put your SLAMBook2 code/data here so it’s visible inside the container:
+
+mkdir -p ~/SLAMBook2
+
+
+If you need GUI windows (OpenCV, Pangolin, etc.)
+A) X11 (most common)
+
+Allow local Docker to use your X server (host):
+
+xhost +local:docker
+
+the output like: xhost +local:docker non-network local connections being added to access control list
+
+
+
+3) Basic run (terminal only)
+
+
+docker run --rm -it \
+  --env DISPLAY=$DISPLAY \
+  --env QT_X11_NO_MITSHM=1 \
+  -v /tmp/.X11-unix:/tmp/.X11-unix \
+  -v /media/mohamed/Transcend_2/3D\ Computer\ Vision/Visual_SLAM:/workspace \
+  -w /workspace \
+  --name slambook2 \
+  zzq5233/slambook2-gaoxiang:latest bash
+  
+  
+  
+  
+  
+  docker run --rm -it \
+  --env DISPLAY=$DISPLAY \
+  --env QT_X11_NO_MITSHM=1 \
+  -v /tmp/.X11-unix:/tmp/.X11-unix \
+  -v "/media/mohamed/Transcend_2/3D Computer Vision/Visual_SLAM":/workspace \
+  -w /workspace \
+  --name slambook2 \
+  zzq5233/slambook2-gaoxiang:latest bash
+  
+
+
+You’ll drop into a bash shell inside the container with /workspace mapped to ~/SLAMBook2 on your host.
+
+
+1) Get the SLAMBook2 code (if it isn’t already in the image)
+
+Inside the container:
+
+cd /workspace
+git clone https://github.com/gaoxiang12/slambook2.git
+
+
+2) Quick smoke test (Chapter 3 tiny demos)
+cd /workspace/slambook2/ch3/geometry
+mkdir build && cd build
+cmake ..
+make -j$(nproc)
+# run a couple of small tests
+./useEigen
+./coordinateTransform
+
+
