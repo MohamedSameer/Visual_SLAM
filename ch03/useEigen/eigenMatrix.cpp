@@ -3,9 +3,9 @@ using namespace std;
 
 #include <ctime>
 // Eigen core
-#include <Eigen/Core>
+#include <eigen3/Eigen/Core>
 // Algebraic operations of dense matrices (inverse, eigenvalues, etc.)
-#include <Eigen/Dense>
+#include <eigen3/Eigen/Dense>
 using namespace Eigen;
 
 #define MATRIX_SIZE 50

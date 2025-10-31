@@ -1,6 +1,6 @@
 # include <iostream>
-# include <Eigen/Dense>
-# include <Eigen/Core>
+# include <eigen3/Eigen/Dense>
+# include <eigen3/Eigen/Core>
 #include <random> // 使用 C++11 随机数库
 
 

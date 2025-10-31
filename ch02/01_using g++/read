@@ -1,0 +1,10 @@
+
+the command to generate a.out executable file using g++
+
+g++ helloSLAM.cpp   
+
+
+Then to run use:
+
+./a.out
+

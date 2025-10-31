@@ -4,9 +4,9 @@ using namespace std;
 
 #include <ctime>
 // Eigen core
-#include <Eigen/Core>
+#include <eigen3/Eigen/Core>
 // 稠密矩阵的代数运算（逆，特征值等）
-#include <Eigen/Dense>
+#include <eigen3/Eigen/Dense>
 
 using namespace Eigen;
 
